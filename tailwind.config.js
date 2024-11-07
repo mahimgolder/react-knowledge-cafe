@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderColor: {
+        'custom-rgba': 'rgba(17, 17, 17, 0.25'
+      }
+    },
   },
   plugins: [],
 }
